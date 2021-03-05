@@ -1,0 +1,41 @@
+/* ----RESET---- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ----/RESET---- */
+/* COLOR */
+.header-color{
+  color: black;
+  background-color: #fdbb40;
+}
+.footer-color{
+  color: white;
+  background-color: #d33359;
+}
+/* /COLOR */
+/* MIX */
+.page_container{
+  max-width: 800px;
+  background-color: white;
+}
+.img-resize{
+  height: 40px;
+}
+/* /MIX */
+body{
+  font-family: 'Fjalla One', sans-serif;
+  background-color: #fff5e2;
+}
+/* --------------------------- */
+
+header{
+  padding: 60px 40px 40px 30px;
+}
+.lista_ingredienti{
+  list-style: none;
+}
+footer{
+  padding: 60px 40px 40px 30px;
+}

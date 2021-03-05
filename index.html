@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <!-- /Google Fonts -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- /css -->
+    <title>Ordinazione</title>
+  </head>
+  <body>
+  <div class="page_container">
+    <!-- INTESTAZIONE -->
+    <header class="title_wrapper header-color">
+      <h1>Create Your Burger</h1>
+      <img src="img/burger-top.png" alt="logo">
+    </header>
+    <!-- /INTESTAZIONE -->
+
+    <!-- CREAZIONE BURGER -->
+    <main>
+      <div class="burger_name_wrapper">
+        <input id="burger_name_input" type="text" placeholder="Mio Nome">
+      </div>
+      <div class="ingredienti_wrapper">
+        <h2>Ingredienti:</h2>
+        <ul class="lista_ingredienti">
+          <li> <img src="img/cheese.svg" alt="formaggio" class="img-resize"> <label for="cheese"> Cheese <input id="" class="add_ingredienti" type="checkbox" value="5"> add</label> </li>
+          <li> <img src="img/fried-egg.svg" alt="uova" class="img-resize"> <label for="egg"> Egg <input id="" class="add_ingredienti" type="checkbox" value="4"> add</label> </li>
+          <li> <img src="img/mustard.svg" alt="senape" class="img-resize"> <label for="mustard"> Mustard <input id=""  class="add_ingredienti"type="checkbox" value="1"> add</label> </li>
+          <li> <img src="img/tomato.svg" alt="pomodoro" class="img-resize"> <label for="tomato"> Tomato <input id="" class="add_ingredienti" type="checkbox" value="2"> add</label> </li>
+          <li> <img src="img/lettuce.svg" alt="lattuga" class="img-resize"> <label for="latuge"> Lettuce <input id="" class="add_ingredienti" type="checkbox" value="3"> add</label> </li>
+          <li> <img src="img/ketchup.svg" alt="ketchup" class="img-resize"> <label for="ketchup"> ketchup <input id="" class="add_ingredienti" type="checkbox" value="1"> add</label> </li>
+        </ul>
+      </div>
+      <div class="codice_sconto">
+        <label for="cupon_input">Discount Cupon</label>
+        <input id="sconto_input" type="text" placeholder="Inserisci il codice sconto">
+      </div>
+      <div class="button-calculate">
+        <button id="btn_calcola">Calcola</button>
+      </div>
+    </main>
+    <!-- /CREAZIONE BURGER -->
+
+    <!-- PREZZO FINALE -->
+   <footer class="footer-color">
+     <div>Your Price</div>
+     <div id="total">50 €</div>
+   </footer>
+   <!-- /PREZZO FINALE -->
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- javascript -->
+  <script type="text/javascript" src="js/script.js"></script>
+  <!-- /javascript -->
+  </body>
+</html>
