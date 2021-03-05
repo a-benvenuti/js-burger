@@ -16,42 +16,42 @@
   <body>
   <div class="page_container">
     <!-- INTESTAZIONE -->
-    <header class="title_wrapper header-color">
+    <header class="title_wrapper header-color set_padding">
       <h1>Create Your Burger</h1>
-      <img src="img/burger-top.png" alt="logo">
+      <img class="logo_burger" src="img/burger-top.png" alt="logo">
     </header>
     <!-- /INTESTAZIONE -->
 
     <!-- CREAZIONE BURGER -->
-    <main>
+    <main class="set_padding_main">
       <div class="burger_name_wrapper">
-        <input id="burger_name_input" type="text" placeholder="Mio Nome">
+        <input id="burger_name_input" type="text" placeholder="Name Your Burger">
       </div>
       <div class="ingredienti_wrapper">
         <h2>Ingredienti:</h2>
-        <ul class="lista_ingredienti">
-          <li> <img src="img/cheese.svg" alt="formaggio" class="img-resize"> <label for="cheese"> Cheese <input id="" class="add_ingredienti" type="checkbox" value="5"> add</label> </li>
-          <li> <img src="img/fried-egg.svg" alt="uova" class="img-resize"> <label for="egg"> Egg <input id="" class="add_ingredienti" type="checkbox" value="4"> add</label> </li>
-          <li> <img src="img/mustard.svg" alt="senape" class="img-resize"> <label for="mustard"> Mustard <input id=""  class="add_ingredienti"type="checkbox" value="1"> add</label> </li>
-          <li> <img src="img/tomato.svg" alt="pomodoro" class="img-resize"> <label for="tomato"> Tomato <input id="" class="add_ingredienti" type="checkbox" value="2"> add</label> </li>
-          <li> <img src="img/lettuce.svg" alt="lattuga" class="img-resize"> <label for="latuge"> Lettuce <input id="" class="add_ingredienti" type="checkbox" value="3"> add</label> </li>
-          <li> <img src="img/ketchup.svg" alt="ketchup" class="img-resize"> <label for="ketchup"> ketchup <input id="" class="add_ingredienti" type="checkbox" value="1"> add</label> </li>
+        <ul class="lista_ingredienti flex_display">
+          <li class="flex_display"> <img src="img/cheese.svg" alt="formaggio" class="img-resize"> <label for="cheese"> Cheese <input id="" class="add_ingredienti" type="checkbox" value="5"> add</label> </li>
+          <li class="flex_display"> <img src="img/tomato.svg" alt="pomodoro" class="img-resize"> <label for="tomato"> Tomato <input id="" class="add_ingredienti" type="checkbox" value="2"> add</label> </li>
+          <li class="flex_display"> <img src="img/fried-egg.svg" alt="uova" class="img-resize"> <label for="egg"> Egg <input id="" class="add_ingredienti" type="checkbox" value="4"> add</label> </li>
+          <li class="flex_display"> <img src="img/lettuce.svg" alt="lattuga" class="img-resize"> <label for="latuge"> Lettuce <input id="" class="add_ingredienti" type="checkbox" value="3"> add</label> </li>
+          <li class="flex_display"> <img src="img/mustard.svg" alt="senape" class="img-resize"> <label for="mustard"> Mustard <input id=""  class="add_ingredienti"type="checkbox" value="1"> add</label> </li>
+          <li class="flex_display"> <img src="img/ketchup.svg" alt="ketchup" class="img-resize"> <label for="ketchup"> ketchup <input id="" class="add_ingredienti" type="checkbox" value="1"> add</label> </li>
         </ul>
       </div>
-      <div class="codice_sconto">
+      <div class="codice_sconto flex_display">
         <label for="cupon_input">Discount Cupon</label>
         <input id="sconto_input" type="text" placeholder="Inserisci il codice sconto">
       </div>
-      <div class="button-calculate">
-        <button id="btn_calcola">Calcola</button>
+      <div class="button_calculate flex_display">
+        <button class="header-color" id="btn_calcola">Calcola</button>
       </div>
     </main>
     <!-- /CREAZIONE BURGER -->
 
     <!-- PREZZO FINALE -->
-   <footer class="footer-color">
-     <div>Your Price</div>
-     <div id="total">50 €</div>
+   <footer class="flex_display footer-color set_padding">
+     <div class="item_footer">Your Price</div>
+     <div class="item_footer" id="total">50 €</div>
    </footer>
    <!-- /PREZZO FINALE -->
   </div>

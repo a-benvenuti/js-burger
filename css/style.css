@@ -16,26 +16,96 @@
 }
 /* /COLOR */
 /* MIX */
+.flex_display{
+  display: flex;
+}
 .page_container{
   max-width: 800px;
   background-color: white;
 }
+.set_padding{
+  padding: 50px 40px;
+}
+.set_padding_main{
+  padding: 190px 40px 50px;
+}
 .img-resize{
   height: 40px;
+  margin-right: 20px;
 }
 /* /MIX */
+/* btn */
+#btn_calcola{
+  border: none;
+  border-radius: 10px;
+  padding: 15px 26px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* /btn */
 body{
+  height: 100vh;
   font-family: 'Fjalla One', sans-serif;
   background-color: #fff5e2;
 }
-/* --------------------------- */
-
+/* INTESTAZIONE */
 header{
-  padding: 60px 40px 40px 30px;
+  height: 140px;
+  width: 800px;
+  position: fixed;
+  top: 0;
+}
+.logo_burger{
+  position: fixed;
+  top: -30px;
+  left: 640px;
+}
+/* /INTESTAZIONE */
+/* ------------MAIN----------- */
+.ingredienti_wrapper h2{
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: lighter;
 }
 .lista_ingredienti{
-  list-style: none;
+  flex-wrap: wrap;
 }
+.lista_ingredienti li{
+  width: 50%;
+  align-items: center;
+  margin-top: 20px;
+}
+.lista_ingredienti li input{
+  margin: 0px 20px;
+}
+.codice_sconto{
+  align-items: center;
+  margin: 20px 0px;
+}
+#burger_name_input, #sconto_input{
+  border: none;
+  width: 70%;
+}
+#burger_name_input{
+  font-size: 28px;
+}
+#sconto_input{
+  background-color: #fff5e2;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.button_calculate{
+  justify-content: center;
+}
+/* ------------/MAIN----------- */
+/* PREZZO FINALE */
 footer{
-  padding: 60px 40px 40px 30px;
+  justify-content: space-between;
 }
+footer div{
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/* /PREZZO FINALE */
