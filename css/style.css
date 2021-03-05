@@ -57,7 +57,7 @@ header{
 }
 .logo_burger{
   position: fixed;
-  top: -30px;
+  top: -5%;
   left: 640px;
 }
 /* /INTESTAZIONE */
@@ -71,7 +71,7 @@ header{
   flex-wrap: wrap;
 }
 .lista_ingredienti li{
-  width: 50%;
+  flex-basis: calc(100% / 2);
   align-items: center;
   margin-top: 20px;
 }
@@ -111,3 +111,28 @@ footer div{
   font-weight: bold;
 }
 /* /PREZZO FINALE */
+/* responsive */
+@media screen and (max-width: 880px){
+  .page_container{
+    max-width: 410px;
+  }
+  header{
+    height: 140px;
+    width: 410px;
+    position: fixed;
+    top: 0;
+  }
+  .logo_burger{
+    height: 220px;
+    position: fixed;
+    top: -5%;
+    left: 300px;
+  }
+  .lista_ingredienti{
+    flex-direction: column;
+  }
+  .codice_sconto label{
+    font-size: 14px;
+  }
+}
+/* /responsive */
