@@ -78,6 +78,9 @@ header{
 .lista_ingredienti li input{
   margin: 0px 20px;
 }
+.lista_ingredienti li span{
+  color:  #d33359;
+}
 .codice_sconto{
   align-items: center;
   margin: 20px 0px;
@@ -107,5 +110,4 @@ footer div{
   font-size: 21px;
   font-weight: bold;
 }
-
 /* /PREZZO FINALE */
