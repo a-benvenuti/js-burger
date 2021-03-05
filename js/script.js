@@ -21,9 +21,9 @@ variabileBtn.addEventListener("click",
       // verifico se il codice sconto inserito è valido e in tal caso lo applico
       if (arrayCodSconto.includes(variabileSconto.value) == true) {
         somma -= somma * 0.2;
-        somma = somma.toFixed(2);
       }
       // stampo nel div total del mio html il totale da pagare
+      somma = somma.toFixed(2);
       variabileTotale.innerHTML = somma + "€";
     } else {
       alert("Devi inserire il nome del tuo burger");
